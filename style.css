@@ -29,7 +29,7 @@ body {
 .header-right li {
     cursor: pointer;
 }
-input{
+#in{
     width: 700px; 
     height: 30px;
     padding: 5px;
@@ -38,4 +38,41 @@ input{
 }
 a{
     text-decoration: none;
+}
+#task{
+    background-color: blue;
+    margin: 15px;
+    color: aliceblue;
+    height: 70px;
+}
+#h1{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.item{
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item button{
+    width: 100px;
+    height: 30px;
+    padding: 2px;
+    border: none;
+    background-color:cadetblue;
+}
+.item span{
+    padding: 20px;
+}
+.c{
+    border: 2px solid black;
+    margin: 10px;
 }
